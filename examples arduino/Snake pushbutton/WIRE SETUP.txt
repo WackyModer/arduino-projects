@@ -1,0 +1,22 @@
+Parts: 5 M-to-F wires, 5 M-to-M wires, 1 breadboard, 2 mechanical switches (buttons),  1 dotmatrix module, 1 MEGA2560 arduino
+
+REQUIREMENTS: Basic knowledge of how to use a breadboard.
+
+Setup:
+
+With the dotmatrix module connect the VCC prong with a to 5V.
+Connect the GND prong to the GND next to the 5V.
+Connect the DIN prong to the PWM 12 pin.
+Connect the CS prong to the PWM 11 pin.
+Connect the CLK pront to the PWM 10 pin.
+
+Breadboard:
+
+Place both mechanical switches next to eachother a comfterable distance appart (these will be your "controls").
+Run a wire from GND (I use GND next to PWM) to the side of the breadboard.
+Run a wire from the grounded part of the breadboard to the [right or left side of the] mechanical switch.
+Do previous step for both switches.
+Connect the 9 pin in PWM to the opposite side of the LEFT mechanical switch that you plugged the grounded wire to.
+Connect the 8 pin in PWM to the opposite side of the RIGHT mechanical switch that you plugged the grounded wire to.
+
+Upload the snake.ino file to the arduino.
